@@ -8,7 +8,7 @@
 
 import Foundation
 
-class ToDoClass {
+class ToRead {
     var description = ""
     var important = false
 }
