@@ -11,15 +11,26 @@ import UIKit
 class CompletedToDoViewController: UIViewController {
 
     var previousToDoTVC = ToDoTableViewController()
-    var selectedToDo = ToRead()
+    var selectedToDo : ToDoCD?
     
     @IBOutlet weak var toDoDisplay: UILabel!
-    @IBAction func completedTapped(_ sender: UIButton) {
+    @IBAction func completedTapped(_ sender: Any) {
+        guard let accessToCoreData =
+            UIApplication.shared.delegate as? AppDelegate else {
+                return }
+        let dataFromCoreData =
+            accessToCoreData.persistentContainer.viewContext
+        
+        if let toDo2Delete = selectedToDo {
+            dataFromCoreData.delete(toDo2Delete)
+            navigationController?.popViewController(animated: true)
+        }
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        toDoDisplay.text = selectedToDo.description
+        toDoDisplay.text = selectedToDo?.descriptionInCD
     }
     
 
