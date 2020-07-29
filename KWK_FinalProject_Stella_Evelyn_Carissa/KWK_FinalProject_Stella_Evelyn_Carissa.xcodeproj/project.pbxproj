@@ -16,6 +16,9 @@
 		1855397424D09F0F0024C735 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1855397224D09F0F0024C735 /* LaunchScreen.storyboard */; };
 		1855397F24D09F100024C735 /* KWK_FinalProject_Stella_Evelyn_CarissaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1855397E24D09F100024C735 /* KWK_FinalProject_Stella_Evelyn_CarissaTests.swift */; };
 		1855398A24D09F100024C735 /* KWK_FinalProject_Stella_Evelyn_CarissaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1855398924D09F100024C735 /* KWK_FinalProject_Stella_Evelyn_CarissaUITests.swift */; };
+		61C0743024D0E42700F55E11 /* JournalEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C0742F24D0E42700F55E11 /* JournalEntryViewController.swift */; };
+		AB918E7524D1167A008CA7FF /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB918E7424D1167A008CA7FF /* JournalEntry.swift */; };
+		AB918E7724D117D2008CA7FF /* JournalEntryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB918E7624D117D2008CA7FF /* JournalEntryTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		1855398524D09F100024C735 /* KWK_FinalProject_Stella_Evelyn_CarissaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KWK_FinalProject_Stella_Evelyn_CarissaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1855398924D09F100024C735 /* KWK_FinalProject_Stella_Evelyn_CarissaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KWK_FinalProject_Stella_Evelyn_CarissaUITests.swift; sourceTree = "<group>"; };
 		1855398B24D09F100024C735 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61C0742F24D0E42700F55E11 /* JournalEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryViewController.swift; sourceTree = "<group>"; };
+		AB918E7424D1167A008CA7FF /* JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
+		AB918E7624D117D2008CA7FF /* JournalEntryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,9 @@
 				1855397224D09F0F0024C735 /* LaunchScreen.storyboard */,
 				1855397524D09F0F0024C735 /* Info.plist */,
 				1855396D24D09F0A0024C735 /* KWK_FinalProject_Stella_Evelyn_Carissa.xcdatamodeld */,
+				AB918E7424D1167A008CA7FF /* JournalEntry.swift */,
+				61C0742F24D0E42700F55E11 /* JournalEntryViewController.swift */,
+				AB918E7624D117D2008CA7FF /* JournalEntryTableViewController.swift */,
 			);
 			path = KWK_FinalProject_Stella_Evelyn_Carissa;
 			sourceTree = "<group>";
@@ -262,7 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB918E7724D117D2008CA7FF /* JournalEntryTableViewController.swift in Sources */,
+				AB918E7524D1167A008CA7FF /* JournalEntry.swift in Sources */,
 				1855396924D09F0A0024C735 /* ViewController.swift in Sources */,
+				61C0743024D0E42700F55E11 /* JournalEntryViewController.swift in Sources */,
 				1855396524D09F0A0024C735 /* AppDelegate.swift in Sources */,
 				1855396724D09F0A0024C735 /* SceneDelegate.swift in Sources */,
 				1855396F24D09F0A0024C735 /* KWK_FinalProject_Stella_Evelyn_Carissa.xcdatamodeld in Sources */,
