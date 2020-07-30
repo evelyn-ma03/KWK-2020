@@ -14,7 +14,8 @@ class ViewEntryViewController: UIViewController {
     var selectedEntry : JournalCD?
 
 
-    @IBOutlet weak var entryDisplay: UITextView!
+    
+    @IBOutlet weak var entryDisplay: UILabel!
     override func viewDidLoad() {
         entryDisplay.text = selectedEntry?.responseCD
         super.viewDidLoad()
