@@ -34,10 +34,11 @@ class JournalEntryTableViewController: UITableViewController {
 
     // MARK: - Table view data source
 
-    override func numberOfSections(in tableView: UITableView) -> Int {
+   /*override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 1
     }
+ */
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
@@ -50,9 +51,8 @@ class JournalEntryTableViewController: UITableViewController {
 
         let eachEntry = listOfEntries[indexPath.row]
         
-        if let thereIsResponse = eachEntry.responseCD {
         cell.textLabel?.text = eachEntry.responseCD
-        }
+        
 
         return cell
     }
@@ -95,7 +95,7 @@ class JournalEntryTableViewController: UITableViewController {
             
             if let nextNewResponseVC = segue.destination as? JournalEntryViewController {
             nextNewResponseVC.previousEntryTVC = self
-            
+        }
                 if let nextViewResponseVC = segue.destination as? ViewEntryViewController {
                     if let chosenEntry = sender as? JournalCD {
                     nextViewResponseVC.selectedEntry = chosenEntry
@@ -109,4 +109,4 @@ class JournalEntryTableViewController: UITableViewController {
     }
 
 }
-}
+

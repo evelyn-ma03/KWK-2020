@@ -12,16 +12,15 @@ class ViewEntryViewController: UIViewController {
 
     var previousEntryTVC = JournalEntryTableViewController()
     var selectedEntry : JournalCD?
-
-
     
     @IBOutlet weak var entryDisplay: UILabel!
+    
     override func viewDidLoad() {
         entryDisplay.text = selectedEntry?.responseCD
         super.viewDidLoad()
             }
     
-    @IBAction func deleteEntry(_ sender: Any) {
+    @IBAction func deleteEntry(_ sender: UIButton) {
         guard let accessToCoreData =
             UIApplication.shared.delegate as? AppDelegate else {
            return
@@ -33,8 +32,8 @@ class ViewEntryViewController: UIViewController {
             dataFromCoreData.delete(entryToDelete)
             navigationController?.popViewController(animated: true)
         }
-
     }
+
     
     /*
     // MARK: - Navigation
