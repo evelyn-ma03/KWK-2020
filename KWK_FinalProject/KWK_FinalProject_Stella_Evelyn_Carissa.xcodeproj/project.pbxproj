@@ -17,6 +17,29 @@
 		1855397F24D09F100024C735 /* KWK_FinalProject_Stella_Evelyn_CarissaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1855397E24D09F100024C735 /* KWK_FinalProject_Stella_Evelyn_CarissaTests.swift */; };
 		1855398A24D09F100024C735 /* KWK_FinalProject_Stella_Evelyn_CarissaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1855398924D09F100024C735 /* KWK_FinalProject_Stella_Evelyn_CarissaUITests.swift */; };
 		61C0743024D0E42700F55E11 /* JournalEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C0742F24D0E42700F55E11 /* JournalEntryViewController.swift */; };
+		61DB80DA24D3A52C00A0C05C /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DB80D924D3A52C00A0C05C /* PageViewController.swift */; };
+		61DB80DC24D3A54800A0C05C /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DB80DB24D3A54800A0C05C /* IntroViewController.swift */; };
+		AB5EE90F24D3ABFB003BCEA8 /* SadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5EE90E24D3ABFB003BCEA8 /* SadViewController.swift */; };
+		AB5EE91124D3AC4E003BCEA8 /* sad1.gif in Resources */ = {isa = PBXBuildFile; fileRef = AB5EE91024D3AC4E003BCEA8 /* sad1.gif */; };
+		AB5EE91324D3ACA2003BCEA8 /* TiredViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5EE91224D3ACA2003BCEA8 /* TiredViewController.swift */; };
+		AB5EE91524D3ACF3003BCEA8 /* tired1.gif in Resources */ = {isa = PBXBuildFile; fileRef = AB5EE91424D3ACF3003BCEA8 /* tired1.gif */; };
+		AB5EE91724D3AD29003BCEA8 /* NeutralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5EE91624D3AD29003BCEA8 /* NeutralViewController.swift */; };
+		AB5EE91924D3AD38003BCEA8 /* HappyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5EE91824D3AD38003BCEA8 /* HappyViewController.swift */; };
+		AB5EE91B24D3AD43003BCEA8 /* ExcitedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5EE91A24D3AD43003BCEA8 /* ExcitedViewController.swift */; };
+		AB5EE91D24D3ADCF003BCEA8 /* happy1.gif in Resources */ = {isa = PBXBuildFile; fileRef = AB5EE91C24D3ADCF003BCEA8 /* happy1.gif */; };
+		AB5EE91F24D3AE2D003BCEA8 /* excited1.gif in Resources */ = {isa = PBXBuildFile; fileRef = AB5EE91E24D3AE2D003BCEA8 /* excited1.gif */; };
+		AB5EE92124D3AED6003BCEA8 /* neutral1.gif in Resources */ = {isa = PBXBuildFile; fileRef = AB5EE92024D3AED6003BCEA8 /* neutral1.gif */; };
+		AB5EE92324D3AEF6003BCEA8 /* happy2.gif in Resources */ = {isa = PBXBuildFile; fileRef = AB5EE92224D3AEF6003BCEA8 /* happy2.gif */; };
+		AB5EE92524D3AF1F003BCEA8 /* excited2.gif in Resources */ = {isa = PBXBuildFile; fileRef = AB5EE92424D3AF1F003BCEA8 /* excited2.gif */; };
+		AB5EE92724D3AF4B003BCEA8 /* tired2.gif in Resources */ = {isa = PBXBuildFile; fileRef = AB5EE92624D3AF4B003BCEA8 /* tired2.gif */; };
+		AB5EE92924D3AF9E003BCEA8 /* neutral2.gif in Resources */ = {isa = PBXBuildFile; fileRef = AB5EE92824D3AF9E003BCEA8 /* neutral2.gif */; };
+		AB5EE92B24D3AFCD003BCEA8 /* tired3.gif in Resources */ = {isa = PBXBuildFile; fileRef = AB5EE92A24D3AFCD003BCEA8 /* tired3.gif */; };
+		AB5EE92D24D3AFE9003BCEA8 /* sad2.gif in Resources */ = {isa = PBXBuildFile; fileRef = AB5EE92C24D3AFE9003BCEA8 /* sad2.gif */; };
+		AB5EE92F24D3B002003BCEA8 /* angry2.gif in Resources */ = {isa = PBXBuildFile; fileRef = AB5EE92E24D3B002003BCEA8 /* angry2.gif */; };
+		AB5EE93124D3B0E9003BCEA8 /* neutral3.gif in Resources */ = {isa = PBXBuildFile; fileRef = AB5EE93024D3B0E9003BCEA8 /* neutral3.gif */; };
+		AB74104924D3A9F30087A5C8 /* AngryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB74104824D3A9F30087A5C8 /* AngryViewController.swift */; };
+		AB74104B24D3AA5C0087A5C8 /* angry.gif in Resources */ = {isa = PBXBuildFile; fileRef = AB74104A24D3AA5C0087A5C8 /* angry.gif */; };
+		AB74104D24D3AA760087A5C8 /* gifLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB74104C24D3AA760087A5C8 /* gifLoad.swift */; };
 		AB918E7524D1167A008CA7FF /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB918E7424D1167A008CA7FF /* JournalEntry.swift */; };
 		AB918E7724D117D2008CA7FF /* JournalEntryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB918E7624D117D2008CA7FF /* JournalEntryTableViewController.swift */; };
 		ABFAF89C24D25CFE004DB782 /* ViewEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFAF89B24D25CFE004DB782 /* ViewEntryViewController.swift */; };
@@ -56,6 +79,29 @@
 		1855398924D09F100024C735 /* KWK_FinalProject_Stella_Evelyn_CarissaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KWK_FinalProject_Stella_Evelyn_CarissaUITests.swift; sourceTree = "<group>"; };
 		1855398B24D09F100024C735 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61C0742F24D0E42700F55E11 /* JournalEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryViewController.swift; sourceTree = "<group>"; };
+		61DB80D924D3A52C00A0C05C /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		61DB80DB24D3A54800A0C05C /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		AB5EE90E24D3ABFB003BCEA8 /* SadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SadViewController.swift; sourceTree = "<group>"; };
+		AB5EE91024D3AC4E003BCEA8 /* sad1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = sad1.gif; path = ../../sad1.gif; sourceTree = "<group>"; };
+		AB5EE91224D3ACA2003BCEA8 /* TiredViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiredViewController.swift; sourceTree = "<group>"; };
+		AB5EE91424D3ACF3003BCEA8 /* tired1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = tired1.gif; path = ../../tired1.gif; sourceTree = "<group>"; };
+		AB5EE91624D3AD29003BCEA8 /* NeutralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeutralViewController.swift; sourceTree = "<group>"; };
+		AB5EE91824D3AD38003BCEA8 /* HappyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyViewController.swift; sourceTree = "<group>"; };
+		AB5EE91A24D3AD43003BCEA8 /* ExcitedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcitedViewController.swift; sourceTree = "<group>"; };
+		AB5EE91C24D3ADCF003BCEA8 /* happy1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = happy1.gif; path = ../../happy1.gif; sourceTree = "<group>"; };
+		AB5EE91E24D3AE2D003BCEA8 /* excited1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = excited1.gif; path = ../../excited1.gif; sourceTree = "<group>"; };
+		AB5EE92024D3AED6003BCEA8 /* neutral1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = neutral1.gif; path = ../../neutral1.gif; sourceTree = "<group>"; };
+		AB5EE92224D3AEF6003BCEA8 /* happy2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = happy2.gif; path = ../../happy2.gif; sourceTree = "<group>"; };
+		AB5EE92424D3AF1F003BCEA8 /* excited2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = excited2.gif; path = ../../excited2.gif; sourceTree = "<group>"; };
+		AB5EE92624D3AF4B003BCEA8 /* tired2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = tired2.gif; path = ../../tired2.gif; sourceTree = "<group>"; };
+		AB5EE92824D3AF9E003BCEA8 /* neutral2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = neutral2.gif; path = ../../neutral2.gif; sourceTree = "<group>"; };
+		AB5EE92A24D3AFCD003BCEA8 /* tired3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = tired3.gif; path = ../../tired3.gif; sourceTree = "<group>"; };
+		AB5EE92C24D3AFE9003BCEA8 /* sad2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = sad2.gif; path = ../../sad2.gif; sourceTree = "<group>"; };
+		AB5EE92E24D3B002003BCEA8 /* angry2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = angry2.gif; path = ../../angry2.gif; sourceTree = "<group>"; };
+		AB5EE93024D3B0E9003BCEA8 /* neutral3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = neutral3.gif; path = ../../neutral3.gif; sourceTree = "<group>"; };
+		AB74104824D3A9F30087A5C8 /* AngryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngryViewController.swift; sourceTree = "<group>"; };
+		AB74104A24D3AA5C0087A5C8 /* angry.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = angry.gif; path = ../../angry.gif; sourceTree = "<group>"; };
+		AB74104C24D3AA760087A5C8 /* gifLoad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gifLoad.swift; sourceTree = "<group>"; };
 		AB918E7424D1167A008CA7FF /* JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
 		AB918E7624D117D2008CA7FF /* JournalEntryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryTableViewController.swift; sourceTree = "<group>"; };
 		ABFAF89B24D25CFE004DB782 /* ViewEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewEntryViewController.swift; sourceTree = "<group>"; };
@@ -113,6 +159,27 @@
 				1855396624D09F0A0024C735 /* SceneDelegate.swift */,
 				1855396824D09F0A0024C735 /* ViewController.swift */,
 				1855396A24D09F0A0024C735 /* Main.storyboard */,
+				AB5EE91824D3AD38003BCEA8 /* HappyViewController.swift */,
+				AB5EE91C24D3ADCF003BCEA8 /* happy1.gif */,
+				AB5EE92224D3AEF6003BCEA8 /* happy2.gif */,
+				AB5EE91A24D3AD43003BCEA8 /* ExcitedViewController.swift */,
+				AB5EE91E24D3AE2D003BCEA8 /* excited1.gif */,
+				AB5EE92424D3AF1F003BCEA8 /* excited2.gif */,
+				AB5EE91624D3AD29003BCEA8 /* NeutralViewController.swift */,
+				AB5EE92024D3AED6003BCEA8 /* neutral1.gif */,
+				AB5EE92824D3AF9E003BCEA8 /* neutral2.gif */,
+				AB5EE93024D3B0E9003BCEA8 /* neutral3.gif */,
+				AB5EE91224D3ACA2003BCEA8 /* TiredViewController.swift */,
+				AB5EE91424D3ACF3003BCEA8 /* tired1.gif */,
+				AB5EE92624D3AF4B003BCEA8 /* tired2.gif */,
+				AB5EE92A24D3AFCD003BCEA8 /* tired3.gif */,
+				AB5EE90E24D3ABFB003BCEA8 /* SadViewController.swift */,
+				AB5EE91024D3AC4E003BCEA8 /* sad1.gif */,
+				AB5EE92C24D3AFE9003BCEA8 /* sad2.gif */,
+				AB74104824D3A9F30087A5C8 /* AngryViewController.swift */,
+				AB74104A24D3AA5C0087A5C8 /* angry.gif */,
+				AB5EE92E24D3B002003BCEA8 /* angry2.gif */,
+				AB74104C24D3AA760087A5C8 /* gifLoad.swift */,
 				1855397024D09F0F0024C735 /* Assets.xcassets */,
 				1855397224D09F0F0024C735 /* LaunchScreen.storyboard */,
 				1855397524D09F0F0024C735 /* Info.plist */,
@@ -121,6 +188,8 @@
 				61C0742F24D0E42700F55E11 /* JournalEntryViewController.swift */,
 				AB918E7624D117D2008CA7FF /* JournalEntryTableViewController.swift */,
 				ABFAF89B24D25CFE004DB782 /* ViewEntryViewController.swift */,
+				61DB80D924D3A52C00A0C05C /* PageViewController.swift */,
+				61DB80DB24D3A54800A0C05C /* IntroViewController.swift */,
 			);
 			path = KWK_FinalProject_Stella_Evelyn_Carissa;
 			sourceTree = "<group>";
@@ -248,8 +317,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				1855397424D09F0F0024C735 /* LaunchScreen.storyboard in Resources */,
+				AB5EE92F24D3B002003BCEA8 /* angry2.gif in Resources */,
+				AB5EE92524D3AF1F003BCEA8 /* excited2.gif in Resources */,
 				1855397124D09F0F0024C735 /* Assets.xcassets in Resources */,
+				AB5EE92324D3AEF6003BCEA8 /* happy2.gif in Resources */,
+				AB5EE92724D3AF4B003BCEA8 /* tired2.gif in Resources */,
+				AB5EE93124D3B0E9003BCEA8 /* neutral3.gif in Resources */,
+				AB5EE91124D3AC4E003BCEA8 /* sad1.gif in Resources */,
+				AB74104B24D3AA5C0087A5C8 /* angry.gif in Resources */,
+				AB5EE92D24D3AFE9003BCEA8 /* sad2.gif in Resources */,
 				1855396C24D09F0A0024C735 /* Main.storyboard in Resources */,
+				AB5EE91D24D3ADCF003BCEA8 /* happy1.gif in Resources */,
+				AB5EE92924D3AF9E003BCEA8 /* neutral2.gif in Resources */,
+				AB5EE91524D3ACF3003BCEA8 /* tired1.gif in Resources */,
+				AB5EE91F24D3AE2D003BCEA8 /* excited1.gif in Resources */,
+				AB5EE92124D3AED6003BCEA8 /* neutral1.gif in Resources */,
+				AB5EE92B24D3AFCD003BCEA8 /* tired3.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,14 +357,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB5EE91B24D3AD43003BCEA8 /* ExcitedViewController.swift in Sources */,
+				AB5EE90F24D3ABFB003BCEA8 /* SadViewController.swift in Sources */,
+				61DB80DA24D3A52C00A0C05C /* PageViewController.swift in Sources */,
 				AB918E7724D117D2008CA7FF /* JournalEntryTableViewController.swift in Sources */,
+				AB5EE91324D3ACA2003BCEA8 /* TiredViewController.swift in Sources */,
+				AB74104D24D3AA760087A5C8 /* gifLoad.swift in Sources */,
+				AB5EE91924D3AD38003BCEA8 /* HappyViewController.swift in Sources */,
 				AB918E7524D1167A008CA7FF /* JournalEntry.swift in Sources */,
 				1855396924D09F0A0024C735 /* ViewController.swift in Sources */,
 				61C0743024D0E42700F55E11 /* JournalEntryViewController.swift in Sources */,
+				61DB80DC24D3A54800A0C05C /* IntroViewController.swift in Sources */,
+				AB5EE91724D3AD29003BCEA8 /* NeutralViewController.swift in Sources */,
 				ABFAF89C24D25CFE004DB782 /* ViewEntryViewController.swift in Sources */,
 				1855396524D09F0A0024C735 /* AppDelegate.swift in Sources */,
 				1855396724D09F0A0024C735 /* SceneDelegate.swift in Sources */,
 				1855396F24D09F0A0024C735 /* KWK_FinalProject_Stella_Evelyn_Carissa.xcdatamodeld in Sources */,
+				AB74104924D3A9F30087A5C8 /* AngryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

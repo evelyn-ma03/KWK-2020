@@ -28,7 +28,6 @@ class ViewController: UIViewController {
         textLabel.isHidden = true
         yesButton.isHidden = true
         noButton.isHidden = true
-        profileButton.isHidden = true
     }
     
     @IBAction func angryButton(_ sender: Any) {
@@ -65,10 +64,6 @@ class ViewController: UIViewController {
         textLabel.isHidden = false
         yesButton.isHidden = false
         noButton.isHidden = false
-    }
-    
-    @IBAction func noAction(_ sender: Any) {
-        profileButton.isHidden = false
     }
     
     
